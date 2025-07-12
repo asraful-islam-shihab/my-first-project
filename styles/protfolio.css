@@ -1,7 +1,7 @@
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 4px;
 }
 
 /* FONT */
@@ -34,9 +34,33 @@
 /* Header */
 .background-img{
     background-image: url(../image/Hero-bg.png);
+    width: 1440;
 }
+/* Action style */
+.action-title{
 
+    font-weight: bold;
+    font-size: 42px;
+    width: 517;
+}
+.action-description{
 
+   font-size: 24px;
+}
+.p-btn{
+    font-size: 16px;
+    font-weight: bold;
+}
+.image-weight{
+    width: 403px;
+}
+.action {
+    width: 517px;
+}
+.action1 {
+    display: flex;
+    justify-content: space-between;
+}
 /* nav */
 .nav{
     list-style: none;
@@ -54,6 +78,7 @@
 .banner-item{
     text-align: center;
     padding: 158px 117.5px 152px 117.5px;
+    background-position: bottom right;
   }
   .primary-btn{
     background-color: #4E47FF;
@@ -64,6 +89,35 @@
     border-radius: 5px;
     border: none;
 }
-
+/* PRODUCTIVE */
     
+ .productive-user{
+        background-color: rgba(78, 71, 255, 0.1);
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 137px;
+    }
 
+    .puser-title{
+        padding-top: 50px;
+        padding-bottom: 40px;
+        font-weight: bold;
+        font-size: 38px;
+        color: #252432;
+    }
+    .puser-items{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .puser-main{
+        color: #4E47FF;
+        font-weight: bold;
+        font-size: 80px;
+    }
+
+    .puser-sub{
+        padding-bottom: 50px;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.5);
+    }
